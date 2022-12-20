@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    background-image: url("images/Anímate-con-estas-7-cosas-que-hacer-en-Bucaramanga-no-habrá-tiempo-para-aburrirse.webp");
+    background-size:cover;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 200px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#underline{
+    margin-top: 2px;
+    text-decoration: underline 3px white;
+}
