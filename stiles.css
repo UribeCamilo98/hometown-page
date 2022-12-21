@@ -45,3 +45,24 @@ body{
    border-radius: 50%;
    border-bottom: 5px solid #0b2545;
 }
+
+#guide{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #8da9c4;
+    margin: 50px auto;
+    border-radius: 6%;
+    border-bottom: 5px solid #0b2545;
+}
+
+#profile-img{
+    width: 150px;
+    margin:20px;
+    border-radius: 15%;
+    border-bottom: 5px solid #0b2545;
+}
+
+#guide-info{
+    margin: 20px;
+}
