@@ -1,19 +1,47 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 #title{
     background-image: url("images/Anímate-con-estas-7-cosas-que-hacer-en-Bucaramanga-no-habrá-tiempo-para-aburrirse.webp");
     background-size:cover;
-    color: white;
-    text-align: center;
     font-size: 150%;
     padding: 200px;
-    text-shadow: 1px 1px 3px black;
+    margin:none;
 }
 
 #underline{
     margin-top: 2px;
     text-decoration: underline 3px white;
+}
+
+#activities{
+    background-color:#8da9c4 ;
+    padding: 10px;
+}
+
+#tokens{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.activity{
+    width: 180px;
+    background-color: #134074;
+    padding: 10px;
+    border-radius: 10%;
+    border-bottom: 5px solid #0b2545;
+}
+.img-activity{
+   width: 150px;
+   height: 150px; 
+   border-radius: 50%;
+   border-bottom: 5px solid #0b2545;
 }
